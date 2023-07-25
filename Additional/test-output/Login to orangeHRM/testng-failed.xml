@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login to orangeHRM]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="login detail4(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="username" value="Admin1"/>
+    <classes>
+      <class name="logintest.Correctpassword">
+        <methods>
+          <include name="logindetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- logintest.Correctpassword -->
+    </classes>
+  </test> <!-- login detail4(failed) -->
+</suite> <!-- Failed suite [Login to orangeHRM] -->
